@@ -49,26 +49,32 @@ table {
 
 /*End Reset*/
 
+html {
+    height: 100vh;
+}
+
+body {
+    height: 100%;
+}
+
 .container {
     display: grid;
-    height: 100vh;
     grid-template: 1fr 5fr / 1fr 4fr;
-    grid-template-areas:    'nav controls'
-                            'nav content-display';
-
-    justify-items: stretch;
-    align-items: stretch;
-}
+    grid-template-areas:    
+        'nav controls'
+        'nav content-display';
+    height: 100%;
+}   
 
 .nav {
     grid-area: nav;
-
     background-color: blue;
 
     display: grid;
-    grid-template-rows: 2fr;
+    grid-template: 1fr 8fr / auto;
     grid-template-areas: 'header'
                          'nav-links';
+    height: 100%;
 }
 
 .nav .header {
@@ -78,6 +84,8 @@ table {
 .nav ul {
     grid-area: nav-links;
     list-style: none;
+    display: grid;
+    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
 }
 
 .controls {
