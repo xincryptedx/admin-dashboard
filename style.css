@@ -51,8 +51,30 @@ table {
 
 .container {
     display: grid;
+    height: 100%;
 
-    grid:   'nav controls'          1fr 5fr
-            'nav content-display'
-            / 1fr 4fr;
+    grid-template: 1fr 5fr / 1fr 4fr;
+    grid-template-areas:    'nav controls'
+                            'nav content-display';
+
+    justify-items: stretch;
+    align-items: stretch;
+}
+
+.nav {
+    grid-area: nav;
+
+    background-color: blue;
+}
+
+.controls {
+    grid-area: controls;
+
+    background-color: green;
+}
+
+.content-display {
+    grid-area: content-display;
+
+    background-color: pink;
 }
