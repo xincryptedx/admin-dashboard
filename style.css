@@ -64,6 +64,12 @@ table {
     grid-area: nav;
 
     background-color: blue;
+
+    display: grid;
+    grid-template-rows: 2fr;
+    grid-template-areas: 'header'
+                         'nav-links';
+    grid-auto-rows: 1fr;
 }
 
 .controls {
