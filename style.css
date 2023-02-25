@@ -69,7 +69,15 @@ table {
     grid-template-rows: 2fr;
     grid-template-areas: 'header'
                          'nav-links';
-    grid-auto-rows: 1fr;
+}
+
+.nav .header {
+    grid-area: header;
+}
+
+.nav ul {
+    grid-area: nav-links;
+    list-style: none;
 }
 
 .controls {
