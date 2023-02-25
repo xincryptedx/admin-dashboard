@@ -49,3 +49,10 @@ table {
 
 /*End Reset*/
 
+.container {
+    display: grid;
+
+    grid:   'nav controls'          1fr 5fr
+            'nav content-display'
+            / 1fr 4fr;
+}
