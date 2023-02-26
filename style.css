@@ -82,6 +82,11 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
 .container {
     display: grid;
     grid-template: 1fr 5fr / 1fr 5fr;
@@ -95,6 +100,7 @@ body {
     grid-area: nav;
     background-color: var(--nav-bg-color);
     color: var(--nav-font-color);
+    font-weight: bold;
     max-height: 100%;
     min-width: min-content;
     padding: 10px;
@@ -134,7 +140,6 @@ body {
 }
 
 .nav .header h1 {
-    font-size: 2rem;
     justify-self: left;
 }
 
