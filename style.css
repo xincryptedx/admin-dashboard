@@ -79,6 +79,10 @@ body {
 
 .nav .header {
     grid-area: header;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    justify-items: center;
 }
 
 .nav ul {
@@ -95,8 +99,13 @@ body {
     gap: 20px;
 }
 
+.nav .header img {
+    height: 7vh;
+}
+
 .nav ul li img {
     justify-self: right;
+    height: 4vh;
 }
 
 .controls {
