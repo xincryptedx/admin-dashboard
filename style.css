@@ -80,7 +80,8 @@ body {
     padding: 10px;
 
     display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+    /* grid-template-rows: repeat(auto-fill, minmax(50px, 1fr)); */
+    grid-template-rows: 2fr repeat(16, 1fr);
     grid-template-columns: 75px 3fr;
 
     align-items: center;
