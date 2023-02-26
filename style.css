@@ -221,6 +221,13 @@ h1 {
 
 .controls .control-btns {
     grid-area: control-btns;
+    display: grid;
+    grid-template: 1fr / repeat(3, 1fr);
+}
+
+.controls .control-btns button {
+    width: 100px;
+    height: 35px;
 }
 
 .content-display {
