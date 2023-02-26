@@ -292,4 +292,6 @@ h1 {
     grid-area: content-display;
 
     background-color: var(--content-display-bg-color);
+
+    box-shadow: 2px -2px 3px 0px hsl(0, 0%, 85%);
 }
