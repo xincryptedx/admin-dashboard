@@ -61,6 +61,8 @@ table {
     --controls-search-bg-color: hsl(0, 0%, 85%);
     --controls-btn-color: hsl(0, 0%, 0%);
     --controls-btn-bg-color: hsl(0, 0%, 100%);
+    --controls-btn-hover-color: hsl(0, 0%, 90%);
+    --controls-btn-active-color: hsl(0, 0%, 80%);
 
     /*Content*/
     --content-display-bg-color: hsl(350, 100%, 88%);
@@ -276,6 +278,14 @@ h1 {
     color: var(--controls-btn-color);
     background-color: var(--controls-btn-bg-color);
     border-radius: 15px;
+}
+
+.controls .control-btns button:hover {
+    background-color: var(--controls-btn-hover-color);
+}
+
+.controls .control-btns button:active {
+    background-color: var(--controls-btn-active-color);
 }
 
 .content-display {
