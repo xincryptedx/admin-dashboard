@@ -185,6 +185,7 @@ h1 {
     display: grid;
     grid-template: 1fr / min-content 1fr;
     gap: 0px 15px;
+    align-items: center;
 }
 
 .controls input[type=search] {
