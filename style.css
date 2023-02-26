@@ -252,6 +252,9 @@ h1 {
     grid-area: control-btns;
     display: grid;
     grid-template: 1fr / repeat(3, 1fr);
+    gap: 0px 15px;
+    align-items: center;
+    justify-items: end;
 }
 
 .controls .control-btns button {
