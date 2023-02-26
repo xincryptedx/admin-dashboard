@@ -88,6 +88,17 @@ body {
     grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
 }
 
+.nav ul li {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav ul li img {
+    justify-self: right;
+}
+
 .controls {
     grid-area: controls;
 
