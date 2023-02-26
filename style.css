@@ -49,15 +49,22 @@ table {
 
 /*End Reset*/
 
+/*CSS Variables*/
 :root{
-    /*Colors
-    Divs*/
-    --nav-bg-color: rgb(149, 202, 252);
+    /*Colors*/
+    /*Nav*/
+    --nav-bg-color: rgb(40, 151, 255);
+    --nav-font-color: white;
+
+    /*Controls*/
     --controls-bg-color: green;
+
+    /*Content*/
     --content-display-bg-color: pink;
 
 }
 
+/*Colors for scrollbar psudoclasses*/
 .nav::-webkit-scrollbar,
 .nav::-webkit-scrollbar-track,
 .nav::-webkit-scrollbar-thumb,
@@ -72,6 +79,7 @@ html {
 
 body {
     height: 100%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
@@ -86,6 +94,7 @@ body {
 .nav {
     grid-area: nav;
     background-color: var(--nav-bg-color);
+    color: var(--nav-font-color);
     max-height: 100%;
     padding: 10px;
 
@@ -98,7 +107,6 @@ body {
 
     overflow-y: auto;
     overflow-x: hidden;
-
 }
 
 .nav .header {
