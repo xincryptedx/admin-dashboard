@@ -184,10 +184,12 @@ h1 {
     grid-area: search;
     display: grid;
     grid-template: 1fr / min-content 1fr;
+    gap: 0px 15px;
 }
 
 .controls input[type=search] {
     max-height: 1.5rem;
+    max-width: 75%;
 }
 
 .controls .search img {
