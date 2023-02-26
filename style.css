@@ -188,7 +188,7 @@ h1 {
     align-items: center;
 }
 
-.controls input[type=search] {
+.controls .search-bar {
     max-height: 1.5rem;
     max-width: 75%;
 }
