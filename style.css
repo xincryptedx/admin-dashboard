@@ -96,14 +96,17 @@ body {
     background-color: var(--nav-bg-color);
     color: var(--nav-font-color);
     max-height: 100%;
+    min-width: min-content;
     padding: 10px;
 
     display: grid;
     grid-template-rows: 2fr repeat(16, 1fr);
-    grid-template-columns: minmax(75px, 1fr) minmax(100px, 4fr);
+    grid-template-columns: minmax(75px, 1fr) minmax(min-content, 4fr);
     align-items: center;
     justify-items: center;
 
+    overflow-y: auto;
+    overflow-x: hidden;
 }
 
 .nav .header {
@@ -131,7 +134,7 @@ body {
 }
 
 .nav .header h1 {
-    font-size: 2.5rem;
+    font-size: 2rem;
     justify-self: left;
 }
 
