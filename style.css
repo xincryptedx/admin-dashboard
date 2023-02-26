@@ -99,7 +99,7 @@ body {
 }
 
 .nav ul li {
-
+    display: contents;
 }
 
 .nav ul li img {
