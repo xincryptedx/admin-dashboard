@@ -223,6 +223,8 @@ h1 {
 .controls .user .user-name {
     justify-self: left;
     padding-left: 25px;
+    font-weight: bold;
+    font-size: 1.15rem;
 }
 
 .controls .greeting {
@@ -242,14 +244,14 @@ h1 {
 
 .controls .greeting .greeting-msg {
     grid-area: greeting;
-    font-size: 85%;
+    font-size: .9rem;
     font-weight: bold;
     align-self: end;
 }
 
 .controls .greeting .user-name {
     grid-area: user-name;
-    font-size: 125%;
+    font-size: 1.25rem;
     font-weight: bold;
     align-self: start;
 }
@@ -266,6 +268,8 @@ h1 {
 .controls .control-btns button {
     width: 100px;
     height: 35px;
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 .content-display {
