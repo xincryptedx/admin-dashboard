@@ -57,7 +57,8 @@ table {
     --nav-font-color: hsl(0, 0%, 100%);
 
     /*Controls*/
-    --controls-bg-color: hsl(0, 0%, 98.5%);
+    --controls-bg-color: hsl(0, 0%, 100%);
+    --controls-search-bg-color: hsl(0, 0%, 85%);
 
     /*Content*/
     --content-display-bg-color: hsl(350, 100%, 88%);
@@ -189,8 +190,13 @@ h1 {
 }
 
 .controls .search-bar {
-    max-height: 1.5rem;
+    height: 2rem;
     max-width: 75%;
+    border-radius: 15px;
+    border-style: none;
+    background-color: var(--controls-search-bg-color);
+    font-size: 1.2rem;
+    padding-left: 2ch;
 }
 
 .controls .search img {
