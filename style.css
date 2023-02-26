@@ -215,8 +215,9 @@ h1 {
                             'user-img user-name';
 }
 
-.controls .greeting img {
+.controls .greeting .user-img {
     grid-area: user-img;
+    max-width: 4rem;
 }
 
 .controls .greeting p {
