@@ -177,6 +177,7 @@ h1 {
     grid-template: 1fr 2fr / 1fr 1fr 1fr; /*set mimmax later*/
     grid-template-areas:    'search search user'
                             'greeting . control-btns';
+    padding: 30px;
 }
 
 .controls .search {
