@@ -195,10 +195,28 @@ h1 {
 
 .controls .user {
     grid-area: user;
+    display: grid;
+    grid-template: 1fr / repeat(2, min-content) 1fr;
 }
 
 .controls .greeting {
     grid-area: greeting;
+    display:grid;
+    grid-template: 1fr 1fr / min-content 1fr;
+    grid-template-areas:    'user-img greeting'
+                            'user-img user-name';
+}
+
+.controls .greeting img {
+    grid-area: user-img;
+}
+
+.controls .greeting p {
+    grid-area: greeting;
+}
+
+.controls .greeting .user-name {
+    grid-area: user-name;
 }
 
 .controls .control-btns {
