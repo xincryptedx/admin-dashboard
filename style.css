@@ -53,14 +53,14 @@ table {
 :root{
     /*Colors*/
     /*Nav*/
-    --nav-bg-color: rgb(40, 151, 255);
-    --nav-font-color: white;
+    --nav-bg-color: hsl(209, 100%, 58%);
+    --nav-font-color: hsl(0, 0%, 100%);
 
     /*Controls*/
-    --controls-bg-color: green;
+    --controls-bg-color: hsl(0, 0%, 98.5%);
 
     /*Content*/
-    --content-display-bg-color: pink;
+    --content-display-bg-color: hsl(350, 100%, 88%);
 
 }
 
@@ -69,8 +69,8 @@ table {
 .nav::-webkit-scrollbar-track,
 .nav::-webkit-scrollbar-thumb,
 .nav {
-    --scrollbar-color: red;
-    --scrollbar-bg-color: purple;
+    --scrollbar-color: hsl(0, 100%, 50%);
+    --scrollbar-bg-color: hsl(300, 100%, 25%);
 }
 
 html {
