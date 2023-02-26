@@ -201,6 +201,9 @@ h1 {
     grid-area: user;
     display: grid;
     grid-template: 1fr / repeat(2, min-content) 1fr;
+    gap: 0px 20px;
+    align-items: center;
+    justify-items: right;
 }
 
 .controls .user .notifications {
@@ -208,7 +211,11 @@ h1 {
 }
 
 .controls .user .user-img {
-    max-width: 2.25rem;
+    max-width: 2.5rem;
+}
+
+.controls .user .user-name {
+    justify-self: left;
 }
 
 .controls .greeting {
