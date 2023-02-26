@@ -186,17 +186,25 @@ h1 {
 }
 
 .controls input[type=search] {
-    max-height: 1.75rem;
+    max-height: 1.5rem;
 }
 
 .controls .search img {
-    max-width: 2rem;
+    max-width: 1.75rem;
 }
 
 .controls .user {
     grid-area: user;
     display: grid;
     grid-template: 1fr / repeat(2, min-content) 1fr;
+}
+
+.controls .user .notifications {
+    max-width: 1.5rem;
+}
+
+.controls .user .user-img {
+    max-width: 2.25rem;
 }
 
 .controls .greeting {
