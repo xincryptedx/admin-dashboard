@@ -275,6 +275,7 @@ h1 {
     font-weight: bold;
     color: var(--controls-btn-color);
     background-color: var(--controls-btn-bg-color);
+    border-radius: 15px;
 }
 
 .content-display {
