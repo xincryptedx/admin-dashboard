@@ -148,8 +148,7 @@ h1 {
 }
 
 .nav .header img {
-    max-width: 80%;
-    max-height: 80%;
+    max-width: 3rem;
 }
 
 .nav ul {
@@ -182,6 +181,12 @@ h1 {
 
 .controls .search {
     grid-area: search;
+    display: grid;
+    grid-template: 1fr / min-content 1fr;
+}
+
+.controls input[type=search] {
+    max-height: 1.75rem;
 }
 
 .controls .search img {
