@@ -50,9 +50,20 @@ table {
 /*End Reset*/
 
 :root{
+    /*Colors
+    Divs*/
     --nav-bg-color: rgb(149, 202, 252);
     --controls-bg-color: green;
     --content-display-bg-color: pink;
+
+}
+
+.nav::-webkit-scrollbar,
+.nav::-webkit-scrollbar-track,
+.nav::-webkit-scrollbar-thumb,
+.nav {
+    --scrollbar-color: red;
+    --scrollbar-bg-color: purple;
 }
 
 html {
@@ -76,20 +87,42 @@ body {
     grid-area: nav;
     background-color: var(--nav-bg-color);
     max-height: 100%;
-
     padding: 10px;
 
     display: grid;
-    /* grid-template-rows: repeat(auto-fill, minmax(50px, 1fr)); */
     grid-template-rows: 2fr repeat(16, 1fr);
     grid-template-columns: 75px 3fr;
 
     align-items: center;
     justify-items: center;
+
+    overflow-y: auto;
+    overflow-x: hidden;
+
 }
 
 .nav .header {
     display: contents;
+}
+
+/*Firefox*/
+.nav {
+    scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
+
+}
+
+/*Chrome, Safari, Edge*/
+.nav::-webkit-scrollbar {
+    width: 8px;
+}
+.nav::-webkit-scrollbar-track {
+    background-color: var(--scrollbar-bg-color);
+}
+
+.nav::-webkit-scrollbar-thumb {
+    background-color: var(--scrollbar-color);
+    border-radius: 30px;
+    border: 1px solid black;
 }
 
 .nav .header h1 {
