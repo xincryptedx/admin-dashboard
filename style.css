@@ -49,6 +49,12 @@ table {
 
 /*End Reset*/
 
+:root{
+    --nav-bg-color: rgb(149, 202, 252);
+    --controls-bg-color: green;
+    --content-display-bg-color: pink;
+}
+
 html {
     height: 100vh;
 }
@@ -68,21 +74,16 @@ body {
 
 .nav {
     grid-area: nav;
-    background-color: blue;
+    background-color: var(--nav-bg-color);
 
     display: grid;
-    grid-template: 1fr 8fr / auto;
-    grid-template-areas: 'header'
-                         'nav-links';
+    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+    grid-template-columns: 1fr 2fr;
     height: 100%;
 }
 
 .nav .header {
-    grid-area: header;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    justify-items: center;
+    display: contents;
 }
 
 .nav .header h1 {
@@ -93,32 +94,26 @@ body {
 }
 
 .nav ul {
-    grid-area: nav-links;
     list-style: none;
-    display: grid;
-    grid-template-rows: repeat(auto-fill, minmax(50px, 1fr));
+    display: contents;
 }
 
 .nav ul li {
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    align-items: center;
-    gap: 20px;
+
 }
 
 .nav ul li img {
-    justify-self: right;
     height: 4vh;
 }
 
 .controls {
     grid-area: controls;
 
-    background-color: green;
+    background-color: var(--controls-bg-color);
 }
 
 .content-display {
     grid-area: content-display;
 
-    background-color: pink;
+    background-color: var(--content-display-bg-color);
 }
