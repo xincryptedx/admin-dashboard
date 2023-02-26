@@ -290,6 +290,12 @@ h1 {
 
 .content-display {
     grid-area: content-display;
+    display: grid;
+    grid-template: 1fr 5fr 1fr 5fr / 3fr 1fr;
+    grid-template-areas:    'card-heading announcements-heading'
+                            'cards        announcements'
+                            'cards        trending-heading'
+                            'cards        trending';
 
     background-color: var(--content-display-bg-color);
 
