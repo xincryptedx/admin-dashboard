@@ -225,23 +225,26 @@ h1 {
     grid-template: 1fr 1fr / min-content 1fr;
     grid-template-areas:    'user-img greeting'
                             'user-img user-name';
-    gap: 5px;
+    gap: 10px 20px;
     align-items: center;
 }
 
 .controls .greeting .user-img {
     grid-area: user-img;
-    max-width: 4rem;
+    max-width: 4.25rem;
 }
 
 .controls .greeting .greeting-msg {
     grid-area: greeting;
-    font-size: 75%;
+    font-size: 85%;
+    font-weight: bold;
     align-self: end;
 }
 
 .controls .greeting .user-name {
     grid-area: user-name;
+    font-size: 125%;
+    font-weight: bold;
     align-self: start;
 }
 
