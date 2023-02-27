@@ -305,3 +305,11 @@ h1 {
 .content-display .cards {
     grid-area: cards;
 }
+
+.content-display .announcements {
+    grid-area: announcements;
+}
+
+.content-display .trending {
+    grid-area: trending;
+}
