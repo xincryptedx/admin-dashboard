@@ -294,7 +294,7 @@ h1 {
     grid-template: 1fr 5fr 1fr 5fr / 3fr 1fr;
     grid-template-areas:    'cards announcements'
                             'cards announcements'
-                            'cards trending-heading'
+                            'cards trending'
                             'cards trending';
 
     background-color: var(--content-display-bg-color);
@@ -312,4 +312,8 @@ h1 {
 
 .content-display .trending {
     grid-area: trending;
+}
+
+.content-display .trending .user-img {
+    max-width: 2.5rem;
 }
