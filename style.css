@@ -292,12 +292,16 @@ h1 {
     grid-area: content-display;
     display: grid;
     grid-template: 1fr 5fr 1fr 5fr / 3fr 1fr;
-    grid-template-areas:    'card-heading announcements-heading'
-                            'cards        announcements'
-                            'cards        trending-heading'
-                            'cards        trending';
+    grid-template-areas:    'cards announcements'
+                            'cards announcements'
+                            'cards trending-heading'
+                            'cards trending';
 
     background-color: var(--content-display-bg-color);
 
     box-shadow: 2px -2px 3px 0px hsl(0, 0%, 85%);
+}
+
+.content-display .cards {
+    grid-area: cards;
 }
