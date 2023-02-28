@@ -331,6 +331,7 @@ h1 {
     display: grid;
     grid-template-rows: min-content;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 20px;
 }
 
 .content-display .cards .cards-header {
