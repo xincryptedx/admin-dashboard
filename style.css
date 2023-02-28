@@ -359,3 +359,12 @@ h1 {
 .content-display .trending .user-img {
     max-width: 2.5rem;
 }
+
+.content-display .trending .trending-detail {
+    font-size: .85rem;
+}
+
+.content-display .trending .user-name {
+    font-size: .87rem;
+    font-weight: bold;
+}
