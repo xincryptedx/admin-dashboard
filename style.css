@@ -328,14 +328,13 @@ h1 {
 
 .content-display .cards {
     grid-area: cards;
+}
+
+.content-display .cards .deck {
     display: grid;
     grid-template-rows: min-content;
     grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
     gap: 20px;
-}
-
-.content-display .cards .cards-header {
-    grid-column: 1 / -1;
 }
 
 .content-display .card {
