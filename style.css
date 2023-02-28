@@ -343,6 +343,15 @@ h1 {
     grid-area: announcements;
 }
 
+.content-display .announcements .ann-title {
+    font-size: .85rem;
+    font-weight: bold;
+}
+
+.content-display .announcements .ann-content{
+    font-size: .85rem;
+}
+
 .content-display .trending {
     grid-area: trending;
 }
