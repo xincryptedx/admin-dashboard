@@ -65,6 +65,8 @@ table {
     --controls-btn-active-color: hsl(0, 0%, 80%);
 
     /*Content*/
+    --content-boxshadow-top: 2px -2px 3px 0px hsl(0, 0%, 85%);
+    --content-boxshadow: 1px 1px 2px 1px hsl(0, 0%, 85%);
     --content-display-bg-color: hsl(190, 100%, 94%);
     --content-card-bg-color: hsl(0, 0%, 100%);
     --content-card-highlight-color: hsl(59, 100%, 50%);
@@ -300,11 +302,10 @@ h1 {
                             'cards trending'
                             'cards trending';
     gap: 20px;
-    
     padding: 4% 2%;
     background-color: var(--content-display-bg-color);
 
-    box-shadow: 2px -2px 3px 0px hsl(0, 0%, 85%);
+    box-shadow: var(--content-boxshadow-top);
 }
 
 .content-display .ann-box, 
@@ -313,6 +314,7 @@ h1 {
     background-color: var(--content-card-bg-color);
     border-radius: 10px;
     padding: 10px;
+    box-shadow: var(--content-boxshadow);
 }
 
 .content-display .trending-header,
