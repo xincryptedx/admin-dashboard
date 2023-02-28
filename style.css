@@ -398,6 +398,7 @@ h1 {
 .content-display .trending .user-img {
     max-width: 2.75rem;
     grid-row: span 2;
+    align-self: center;
 }
 
 .content-display .trending .trending-detail {
