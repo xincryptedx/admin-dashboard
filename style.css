@@ -305,8 +305,8 @@ h1 {
     box-shadow: 2px -2px 3px 0px hsl(0, 0%, 85%);
 }
 
-.content-display .announcements, 
-.content-display .trending,
+.content-display .ann-box, 
+.content-display .trending-box,
 .content-display .card {
     background-color: var(--content-card-bg-color);
     border-radius: 10px;
