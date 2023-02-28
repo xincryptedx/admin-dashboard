@@ -53,11 +53,11 @@ table {
 :root{
     /*Colors*/
     /*Nav*/
-    --nav-bg-color: hsl(209, 100%, 58%);
+    --nav-bg-color: hsl(222, 62%, 29%);
     --nav-font-color: hsl(0, 0%, 100%);
 
     /*Controls*/
-    --controls-bg-color: hsl(0, 0%, 100%);
+    --controls-bg-color: hsl(43, 54%, 95%);
     --controls-search-bg-color: hsl(0, 0%, 85%);
     --controls-btn-color: hsl(0, 0%, 0%);
     --controls-btn-bg-color: hsl(0, 0%, 100%);
@@ -67,20 +67,11 @@ table {
     /*Content*/
     --content-boxshadow-top: 2px -2px 3px 0px hsl(0, 0%, 85%);
     --content-boxshadow: 1px 1px 2px 1px hsl(0, 0%, 85%);
-    --content-display-bg-color: hsl(190, 100%, 94%);
+    --content-display-bg-color: hsl(42, 36%, 87%);
     --content-card-bg-color: hsl(0, 0%, 100%);
-    --content-card-highlight-color: hsl(59, 100%, 50%);
+    --content-card-highlight-color: hsl(216, 30%, 52%);
     --content-card-div-line-color: hsl(0, 0%, 80%);
 
-}
-
-/*Colors for scrollbar psudoclasses*/
-.nav::-webkit-scrollbar,
-.nav::-webkit-scrollbar-track,
-.nav::-webkit-scrollbar-thumb,
-.nav {
-    --scrollbar-color: hsl(0, 100%, 50%);
-    --scrollbar-bg-color: hsl(300, 100%, 25%);
 }
 
 html {
@@ -127,26 +118,6 @@ h1 {
 
 .nav .header {
     display: contents;
-}
-
-/*Firefox*/
-.nav {
-    scrollbar-color: var(--scrollbar-color) var(--scrollbar-bg-color);
-
-}
-
-/*Chrome, Safari, Edge*/
-.nav::-webkit-scrollbar {
-    width: 8px;
-}
-.nav::-webkit-scrollbar-track {
-    background-color: var(--scrollbar-bg-color);
-}
-
-.nav::-webkit-scrollbar-thumb {
-    background-color: var(--scrollbar-color);
-    border-radius: 30px;
-    border: 1px solid black;
 }
 
 .nav .header h1 {
