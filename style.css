@@ -112,7 +112,7 @@ h1 {
     align-items: center;
     justify-items: center;
 
-    overflow-y: auto;
+    overflow-y: hidden;
     overflow-x: hidden;
 }
 
@@ -274,7 +274,7 @@ h1 {
                             'cards trending'
                             'cards trending';
     gap: 20px;
-    padding: 4% 2%;
+    padding: 40px 20px;
     background-color: var(--content-display-bg-color);
 
     box-shadow: var(--content-boxshadow-top);
