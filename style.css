@@ -67,6 +67,7 @@ table {
     /*Content*/
     --content-display-bg-color: hsl(190, 100%, 94%);
     --content-card-bg-color: hsl(0, 0%, 100%);
+    --content-card-highlight-color: hsl(59, 100%, 50%);
 
 }
 
@@ -323,6 +324,11 @@ h1 {
 
 .content-display .cards {
     grid-area: cards;
+}
+
+.content-display .card {
+    border-left: 5px var(--content-card-highlight-color);
+    border-style: solid;
 }
 
 .content-display .announcements {
