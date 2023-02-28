@@ -347,7 +347,7 @@ h1 {
 
 .content-display .ann-box {
     display: grid;
-    grid-template: repeat(3, 1fr 2fr) / 1fr;
+    grid-template: repeat(3, minmax(min-content, 1fr) minmax(min-content, 2fr)) / 1fr;
     gap: 10px;
 }
 
