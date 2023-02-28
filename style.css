@@ -336,21 +336,43 @@ h1 {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(30ch, 1fr));
     gap: 20px;
-    align-items: spread;
 }
 
 .content-display .card {
+    display: grid;
+    grid-template: 1fr minmax(min-content, 3fr) 2fr 1fr / 1fr repeat(3, 1.5rem);
+    gap: 10px;
+
     border-left: 5px var(--content-card-highlight-color);
     border-style: solid;
     padding: 20px;
 }
 
 .content-display .card .card-content {
+    grid-column: 1 / -1;
     font-size: .875rem;
 }
 
 .content-display .card-title {
+    grid-column: 1 / -1;
     font-weight: bold;
+}
+
+.card img {
+    max-width: 1.5rem;
+    grid-row: -1;
+}
+
+.card img.favorite {
+    grid-column: -3 / -4;
+}
+
+.card img.show {
+    grid-column: -2 / -3;
+}
+
+.card img.share {
+    grid-column: -1 / -2;
 }
 
 .content-display .announcements {
