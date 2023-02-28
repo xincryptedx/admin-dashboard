@@ -343,13 +343,27 @@ h1 {
     grid-area: announcements;
 }
 
-.content-display .announcements .ann-title {
+
+
+.content-display .ann-box {
+    display: grid;
+    grid-template: repeat(3, 1fr 2fr) / 1fr;
+    gap: 10px;
+}
+
+.content-display .ann-box .ann-title {
     font-size: .85rem;
     font-weight: bold;
+    align-self: end;
+}
+
+.content-display .ann-box .ann {
+    display: contents;
 }
 
 .content-display .announcements .ann-content{
     font-size: .85rem;
+    align-self: start;
 }
 
 .content-display .trending {
