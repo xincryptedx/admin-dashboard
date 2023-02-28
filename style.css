@@ -378,15 +378,28 @@ h1 {
     grid-area: trending;
 }
 
+.content-display .trending-box {
+    display: grid;
+    grid-template: repeat(8, 1fr) / 1fr 3fr;
+    gap: 5px 0px;
+}
+
+.content-display .trending-box .trender-info {
+    display: contents;
+}
+
 .content-display .trending .user-img {
     max-width: 2.5rem;
+    grid-row: span 2;
 }
 
 .content-display .trending .trending-detail {
     font-size: .85rem;
+    align-self: start;
 }
 
 .content-display .trending .user-name {
     font-size: .87rem;
     font-weight: bold;
+    align-self: end;
 }
