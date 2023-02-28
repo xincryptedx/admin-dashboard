@@ -331,6 +331,14 @@ h1 {
     border-style: solid;
 }
 
+.content-display .card .card-content {
+    font-size: .875rem;
+}
+
+.content-display .card-title {
+    font-weight: bold;
+}
+
 .content-display .announcements {
     grid-area: announcements;
 }
