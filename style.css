@@ -328,6 +328,13 @@ h1 {
 
 .content-display .cards {
     grid-area: cards;
+    display: grid;
+    grid-template-rows: min-content;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+}
+
+.content-display .cards .cards-header {
+    grid-column: 1 / -1;
 }
 
 .content-display .card {
@@ -346,8 +353,6 @@ h1 {
 .content-display .announcements {
     grid-area: announcements;
 }
-
-
 
 .content-display .ann-box {
     display: grid;
