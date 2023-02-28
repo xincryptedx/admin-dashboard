@@ -225,7 +225,7 @@ h1 {
 }
 
 .controls .user .user-img {
-    max-width: 2.5rem;
+    max-width: 2.75rem;
 }
 
 .controls .user .user-name {
@@ -394,7 +394,7 @@ h1 {
 }
 
 .content-display .trending .user-img {
-    max-width: 2.5rem;
+    max-width: 2.75rem;
     grid-row: span 2;
 }
 
