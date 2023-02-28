@@ -297,7 +297,8 @@ h1 {
                             'cards announcements'
                             'cards trending'
                             'cards trending';
-
+    gap: 20px;
+    
     background-color: var(--content-display-bg-color);
 
     box-shadow: 2px -2px 3px 0px hsl(0, 0%, 85%);
@@ -305,8 +306,14 @@ h1 {
 
 .content-display .announcements, 
 .content-display .trending,
-.content-display .cards {
+.content-display .card {
     background-color: var(--content-card-bg-color);
+}
+
+.content-display .trending-header,
+.content-display .ann-header,
+.content-display .cards-header {
+    background-color: var(--content-display-bg-color);
 }
 
 .content-display .cards {
