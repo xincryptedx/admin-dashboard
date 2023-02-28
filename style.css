@@ -356,6 +356,7 @@ h1 {
 .content-display .card-title {
     grid-column: 1 / -1;
     font-weight: bold;
+    align-self: end;
 }
 
 .card img {
