@@ -68,6 +68,7 @@ table {
     --content-display-bg-color: hsl(190, 100%, 94%);
     --content-card-bg-color: hsl(0, 0%, 100%);
     --content-card-highlight-color: hsl(59, 100%, 50%);
+    --content-card-div-line-color: hsl(0, 0%, 80%);
 
 }
 
@@ -347,8 +348,14 @@ h1 {
 
 .content-display .ann-box {
     display: grid;
-    grid-template: repeat(3, minmax(min-content, 1fr) minmax(min-content, 2fr)) / 1fr;
+    grid-template: 2fr 4fr 1fr 2fr 4fr 1fr 2fr 4fr / 1fr;
     gap: 10px;
+}
+
+.content-display .ann-box .empty {
+    height: 0%;
+    border-top: 1px solid var(--content-card-div-line-color);
+    align-self: center;
 }
 
 .content-display .ann-box .ann-title {
