@@ -340,6 +340,7 @@ h1 {
 .content-display .card {
     border-left: 5px var(--content-card-highlight-color);
     border-style: solid;
+    padding: 20px;
 }
 
 .content-display .card .card-content {
