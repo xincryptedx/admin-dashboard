@@ -299,6 +299,7 @@ h1 {
                             'cards trending';
     gap: 20px;
     
+    padding: 4% 2%;
     background-color: var(--content-display-bg-color);
 
     box-shadow: 2px -2px 3px 0px hsl(0, 0%, 85%);
@@ -308,6 +309,8 @@ h1 {
 .content-display .trending,
 .content-display .card {
     background-color: var(--content-card-bg-color);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .content-display .trending-header,
