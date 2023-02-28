@@ -321,6 +321,7 @@ h1 {
     font-size: 1.1rem;
     font-weight: bold;
     background-color: var(--content-display-bg-color);
+    margin-bottom: 15px;
 }
 
 .content-display .cards {
