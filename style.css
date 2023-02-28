@@ -316,6 +316,8 @@ h1 {
 .content-display .trending-header,
 .content-display .ann-header,
 .content-display .cards-header {
+    font-size: 1.1rem;
+    font-weight: bold;
     background-color: var(--content-display-bg-color);
 }
 
