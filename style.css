@@ -254,6 +254,7 @@ h1 {
     color: var(--controls-btn-color);
     background-color: var(--controls-btn-bg-color);
     border-radius: 15px;
+    border-style: none;
 }
 
 .controls .control-btns button:hover {
