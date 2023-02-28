@@ -51,7 +51,7 @@ table {
 
 /*CSS Variables*/
 :root{
-    /*Colors*/
+    /*Colors Palette from https://colorhunt.co/palette/1c3879607eaaeae3d2f9f5eb*/
     /*Nav*/
     --nav-bg-color: hsl(222, 62%, 29%);
     --nav-font-color: hsl(0, 0%, 100%);
@@ -59,10 +59,10 @@ table {
     /*Controls*/
     --controls-bg-color: hsl(43, 54%, 95%);
     --controls-search-bg-color: hsl(0, 0%, 85%);
-    --controls-btn-color: hsl(0, 0%, 0%);
-    --controls-btn-bg-color: hsl(0, 0%, 100%);
-    --controls-btn-hover-color: hsl(0, 0%, 90%);
-    --controls-btn-active-color: hsl(0, 0%, 80%);
+    --controls-btn-color: hsl(43, 54%, 95%);
+    --controls-btn-bg-color: hsl(216, 30%, 52%);
+    --controls-btn-hover-color: hsl(222, 62%, 39%);
+    --controls-btn-active-color: hsl(222, 62%, 29%);
 
     /*Content*/
     --content-boxshadow-top: 2px -2px 3px 0px hsl(0, 0%, 85%);
